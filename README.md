@@ -10,7 +10,37 @@ Status: Archive engineering review and targeted fixes have been reported as comp
 Important: This repository is a technical reference unless explicitly maintained as the canonical source of the production implementation.
 
 
+---
 
+هيكل التوثيق المقترح
+README.md
+نظرة عامة، نطاق العمل، ملخص الإصلاحات، روابط الوثائق، وحالة التحقق.
+
+رئيسي
+
+
+ARCHITECTURE.md
+معمارية ZIP وTAR وTAR.GZ وRAR و7z، والـ Workers ومسارات استخراج الملفات.
+
+
+DECISION_LOG.md
+القرارات الهندسية وأسبابها والبدائل التي تمت مناقشتها.
+
+
+TEST_MATRIX.md
+حالات الاختبار، النتائج المؤكدة، والاختبارات التي لم تُنفذ بعد.
+
+
+SECURITY_REGISTER.md
+مخاطر معالجة الأرشيف، المسارات غير الآمنة، استهلاك الذاكرة، والمشاكل المفتوحة.
+
+
+CHANGELOG.md
+تسلسل التغييرات والإصلاحات التي نُفذت فعلياً.
+
+
+PROJECT_STATE.md
+الحالة الحالية لمراجعة الأرشيف وما بقي من قيود ومشاكل.
 
 
 
